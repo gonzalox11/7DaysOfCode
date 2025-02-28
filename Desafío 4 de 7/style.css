@@ -1,0 +1,50 @@
+:root{
+    --color: #31a702de;
+    --color2: #05ffffe3;
+    --color3: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.titulo{
+    color: var(--color2);
+    font-size: 5rem;
+    padding: 10% 0% 0% 0%;    
+}
+
+.parrafo{
+    color:var(--color3);
+    font-size: 3rem;
+}
+
+.caja{
+    font-size: 3rem;
+}
+
+
+
+.boton{
+    background-color: #dadada;
+    font-size: 3rem;
+
+}
+
+.boton:hover{
+    background-color: #dadadabd;
+}
+
+.boton:disabled{
+    background-color: #cecece;
+}
