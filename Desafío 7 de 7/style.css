@@ -1,0 +1,52 @@
+:root{
+    --color: #dadada;
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #02a7a7de;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.titulo{
+    font-size: 5rem;
+    padding: 7% 0% 3% 0%;
+}
+
+.boton {
+    background-color:var(--color);
+    font-size: 3rem;
+    padding: 0% 5% 0% 5%;
+    border-radius: 16px;
+}
+
+.botonSalir {
+    background-color: #b80101;
+    font-size: 3rem;
+    padding: 0% 5% 0% 5%;
+    border-radius: 16px;
+}
+
+.boton:hover{
+    background-color:#c4c2c2 ;
+}
+
+.botonSalir:hover {
+    background-color: #8d0202;
+}
+
+.boton:disabled{
+    background-color: var(--color);
+}
+
+.botonSalir:disabled{
+    background-color: #8d0202;
+}
